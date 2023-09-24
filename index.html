@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lighr-on-off</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="mein-container">
+        <div class="btnS-container">
+            <div class="btnS">
+                <div class="btn " id="btn-1" onclick="myFun1()">RIGHT</div>
+                <div class="btn" id="btn-2" onclick="myFun2()">LEFT</div>
+                <div class="btn" id="btn-3" onclick="myFun3()"> BOTH </div>
+                <div class="btn" id="btn-4" onclick="myFun4()"> RESET</div>
+            </div>
+
+             <!-- popup for right button  -->
+            <div class="popup" id="popup">
+                <h2>IMPORTENT !</h2>
+                <h3>Light Shadow</h3>
+                <input type="range" id="inp1" min="0" max="255"">
+                <h3>Color</h3>
+                <input type="color" id="inp2">
+                <h3>light color</h3>
+                <input type="color" name="" id="light-color">
+                <div id="btn-5" onclick="myFun5()">ENTER</div>
+            </div>
+
+            <!-- popup for left button  -->
+            <div class="popup" id="popup-2">
+                <h2>IMPORTENT !</h2>
+                <h3>Light Shadow</h3>
+                <input type="range" id="inp4" min="0" max="255"">
+            <h3>Color</h3>
+            <input type="color" id="inp2">
+                <h3>light color</h3>
+                <input type="color" name="" id="light-color">
+                <div id="btn-5" onclick="myFun6()">ENTER</div>
+            </div>
+
+             <!-- popup for reset button  -->
+           
+             <div class="popup" id="popup-4">
+                <h2>IMPORTENT !</h2>
+                <h3>Light Shadow</h3>
+                <input type="range" id="inp4" min="0" max="255"">
+            <h3>Color</h3>
+            <input type="color" id="inp2">
+                <h3>light color</h3>
+                <input type="color" name="" id="light-color">
+                <div id="btn-5" onclick="myFun8()">ENTER</div>
+            </div>
+
+
+        </div>
+        <div class="container" id="container">
+            <div class="box container-box-1"></div>
+            <div class="box container-box-2"></div>
+            <div class="box container-box-3"></div>
+            <div class="box container-box-4"></div>
+            <div class="box container-box-5"></div>
+            <div class="box container-box-6"></div>
+            <div class="box container-box-7"></div>
+            <div class="box container-box-8" id="box-8"></div>
+            <div class="box container-box-9"></div>
+            <div class="box container-box-10"></div>
+            <div class="box container-box-11"></div>
+            <div class="box container-box-12" id="box-12"></div>
+            <div class="box container-box-13"></div>
+            <div class="box container-box-14"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
